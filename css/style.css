@@ -40,6 +40,12 @@ ul {
     padding: 0;
 }
 
+.ul-nav-a {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
 .li-nav {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -49,6 +55,7 @@ ul {
 .navbar-figure {
     display: flex;
     align-items: center;
+    margin: 0;
 }
 
 .logo {
@@ -126,13 +133,14 @@ ul {
 .footer-div-p {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    margin: 0;
 }
 
 footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: gainsboro;
+    background-color: #EDE305;
 }
 
 .footer {
