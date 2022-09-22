@@ -23,9 +23,9 @@ a {
 .navbar {
     display: flex;
     justify-content: space-between;
-    /*width: 100%;
-    height: 10rem;*/
-    height: 100%;
+    width: 100%;
+    /*height: 10rem;*/
+    padding: 0;
 }
 
 ul {
@@ -53,9 +53,8 @@ ul {
 }
 
 .navbar-figure {
-    display: flex;
-    align-items: center;
     margin: 0;
+    padding: 0;
 }
 
 .logo {
@@ -79,10 +78,17 @@ ul {
     height: 85vh;
 }
 
+
 .section-figure-img {
+    width: 100vw;
+    height: 100vh;
+}
+
+#carouselExampleCaptions {
     width: 100%;
-    height: 100%;
-}*/
+    height: 60vh;
+}
+*/
 
 .div-blank {
     width: 100%;
@@ -106,19 +112,8 @@ ul {
 }*/
 
 .section-info-img {
-    width: 450px;
-    height: 350px;
-}
-
-.texto-1 {
-    position: relative;
-    top: -100px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 30px;
-    color: black;
-    background-color: white;
-    text-align: center;
+    width: 28vw;
+    height: 500px;
 }
 
 
